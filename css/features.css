@@ -1,0 +1,15 @@
+.features {
+  padding: 120px 0;
+}
+
+.ul-item-features {
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.features-li-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
