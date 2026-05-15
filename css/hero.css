@@ -1,7 +1,16 @@
 .hero {
   background-color: #2e2f42;
-
+  border: #e7e9fc;
   padding: 188px 141px;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(46, 47, 66, 0.7) 0%,
+      rgba(46, 47, 66, 0.7) 100%
+    ),
+    url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-container {
