@@ -67,6 +67,10 @@
   fill: #ffffff;
 }
 
+.team .icon:hover {
+  background-color: #404bbf;
+}
+
 .social-list {
   display: flex;
   gap: 24px;
