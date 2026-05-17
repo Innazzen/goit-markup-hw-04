@@ -50,7 +50,8 @@
 .team img {
   display: block;
 }
-.social-link {
+
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,7 +62,8 @@
   border-radius: 40px;
   background-color: #4d5ae5;
 }
-.social-link use {
+
+.icon use {
   fill: #ffffff;
 }
 
@@ -70,7 +72,7 @@
   gap: 24px;
 }
 
-.team-icons {
+.socials-icons {
   display: flex;
   justify-content: center;
   align-items: center;

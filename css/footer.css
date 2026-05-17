@@ -16,7 +16,7 @@
   letter-spacing: 0.03em;
 }
 
-.footer .features-text {
+.left .features-text {
   color: #f4f4fd;
   width: 264px;
   margin-top: 16px;
@@ -24,7 +24,22 @@
 
 .footer-icons {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* justify-content: space-between; */
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.container-footer {
+  display: flex;
+}
+
+.left {
+  margin-left: 15px;
+  margin-right: 120px;
+}
+
+.footer-socials {
+}
+
+.footer-socials .features-text {
+  color: #f4f4fd;
 }
