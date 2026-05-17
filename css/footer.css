@@ -21,3 +21,10 @@
   width: 264px;
   margin-top: 16px;
 }
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+}
