@@ -71,11 +71,6 @@
   background-color: #404bbf;
 }
 
-.social-list {
-  display: flex;
-  gap: 24px;
-}
-
 .socials-icons {
   display: flex;
   justify-content: center;
