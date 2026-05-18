@@ -28,11 +28,16 @@
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  margin-bottom: 8px;
 }
 
 .li-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ul-item-team {
@@ -47,7 +52,7 @@
   padding: 32px 16px;
 }
 
-.team img {
+.team image {
   display: block;
 }
 
@@ -63,10 +68,6 @@
   background-color: #4d5ae5;
 }
 
-.icon use {
-  fill: #ffffff;
-}
-
 .team .icon:hover {
   background-color: #404bbf;
 }
@@ -75,5 +76,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  fill: #ffffff;
 }
