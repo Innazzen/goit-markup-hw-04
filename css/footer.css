@@ -25,7 +25,6 @@
 .footer-icons {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
 }
 
 .container-footer {
@@ -57,5 +56,5 @@
 }
 
 .footer-icons use {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
